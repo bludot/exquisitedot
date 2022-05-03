@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 
 export default function IndexPage() {
     return (<Layout>
-        <div className="bg-indigo-900 relative overflow-hidden h-screen">
+        <div className="bg-white relative overflow-hidden h-screen">
             {/*<div className="inset-0 bg-black opacity-10 absolute z-20">
             </div>*/}
             <FloatingCircles color="rgb(255 255 255)" style={{position: 'absolute', zIndex: 10}}>
