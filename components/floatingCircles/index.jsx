@@ -46,7 +46,8 @@ function init(canvas, color) {
         //loop throughj the circles array
         for (var i = 0; i < circles.length; i++) {
             //draw the circles
-            c.fillStyle = 'rgba(50,50,50,1)'
+            // c.fillStyle = 'rgba(50,50,50,1)'
+            c.fillStyle = 'rgba(0,0,0,1)';
             c.beginPath();
             c.arc(circles[i].x, circles[i].y, circles[i].r, 0, Math.PI * 2, true);
             c.fill()
