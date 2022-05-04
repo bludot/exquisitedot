@@ -20,7 +20,7 @@ export default function IndexPage() {
             </span>
                     <h1 className="font-bold text-5xl xs:text-5xl sm:text-7xl md:text-7xl text-gray-800 leading-tight mt-4" style={{textShadow:`0 0 .5em rgba(255,255,255,.4),
                         .1em 0 .15em rgba(0,0,0,.2),
-                        .1em .3em .15em rgba(0,0,0,.2)`}}>
+                        .1em .15em .15em rgba(0,0,0,.2)`}}>
                         Let the Exquisiteness
                         <br/>
                         Envelop you
