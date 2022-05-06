@@ -18,12 +18,16 @@ export default function GalleryPage() {
     const [height, setHeight] = useState(0)
     useEffect(() => {
         setWidth(window.innerWidth-70)
-        setHeight(window.innerHeight-92-32)
+        setHeight(window.innerHeight-92-64)
+        window.onresize = () => {
+            setWidth(window.innerWidth-70)
+            setHeight(window.innerHeight-92-64)
+        }
     })
     return (
         <Layout>
             <div
-                className="container content-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 mx-auto my-32">
+                className="container content-center grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 mx-auto my-16">
                 <Grid
                     columnCount={5}
                     columnWidth={300}
