@@ -1,11 +1,11 @@
 import { CurrencyDollarIcon } from "@heroicons/react/solid";
 
-const Image = () => {
+const Image = ({src}) => {
   return (
     <div class="overflow-hidden shadow-lg rounded-2xl h-90 w-64 m-auto border-gray-100 border">
       <img
         alt="eggs"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BlackDot.svg/1200px-BlackDot.svg.png"
+        src={src}
         class="rounded-t-lg"
       />
       <div class="bg-white w-full p-4 relative">

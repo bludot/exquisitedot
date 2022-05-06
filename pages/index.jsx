@@ -23,8 +23,8 @@ export default function IndexPage() {
                         <br/>
                         Envelop you
                     </h1>
-                    <Link href="/gallery" scroll={false}>
-                    <a href="/gallery"
+                    <Link href="/gallery/available" scroll={false}>
+                    <a href="/gallery/available"
                        className="block bg-gray-300 hover:bg-gray-400 py-3 px-4 rounded-lg text-lg text-gray-800 font-bold uppercase mt-10">
                         Give me money
                     </a>
