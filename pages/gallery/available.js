@@ -9,7 +9,7 @@ const Row = ({ columnIndex, rowIndex, style }) => (
     <div style={style}>
         <Image
         key={columnIndex*rowIndex}
-        src={images[columnIndex*(rowIndex+1)]}
+        src={images[images.length - columnIndex*(rowIndex+1)]}
     /></div>
 );
 
